@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+    - name: Run go test
+      command: make test10
+      args:
+        chdir: "{{ zuul.project.src_dir }}"
