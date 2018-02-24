@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE COMPLIANCE_SCAN_RESULT_OUTPUT SYSTEM
+"https://qualysapi.qualys.com/api/2.0/fo/scan/compliance/compliance_s
+can_result_output.dtd">
+<COMPLIANCE_SCAN_RESULT_OUTPUT>
+ <RESPONSE>
+	<DATETIME>2012-09-17T10:23:53Z</DATETIME>
+	<COMPLIANCE_SCAN>
+		<HEADER>
+			<NAME>
+				<![CDATA[Compliance Scan Results]]>
+			</NAME>
+			<GENERATION_DATETIME>
+				2012-09-17T10:23:53Z
+			</GENERATION_DATETIME>
+			<COMPANY_INFO>
+				<NAME><![CDATA[Qualys]]></NAME>
+				<ADDRESS><![CDATA[1600 Bridge Parkway]]></ADDRESS>
+				<CITY><![CDATA[Redwood Shores]]></CITY>
+				<STATE><![CDATA[California]]></STATE>
+				<COUNTRY><![CDATA[United States]]></COUNTRY>
+				<ZIP_CODE><![CDATA[94065]]></ZIP_CODE>
+			</COMPANY_INFO>
+			<USER_INFO>
+				<NAME><![CDATA[NAME]]></NAME>
+				<USERNAME>USERNAME</USERNAME>
+				<ROLE>Manager</ROLE>
+			</USER_INFO>
+			<KEY value="USERNAME">USERNAME</KEY>
+			<KEY value="COMPANY"><![CDATA[Qualys]]></KEY>
+			<KEY value="DATE">2012-09-15T11:49:08Z</KEY>
+			<KEY value="TITLE"><![CDATA[My PC Scan]]></KEY>
+			<KEY value="TARGET">10.10.10.29</KEY>
+			<KEY value="EXCLUDED_TARGET"><![CDATA[N/A]]></KEY>
+			<KEY value="DURATION">00:01:00</KEY>
+			<KEY value="SCAN_HOST">
+				10.10.21.122 (Scanner 6.6.28-1, Vulnerability Signatures 2.2.215-2)
+			</KEY>
+			<KEY value="NBHOST_ALIVE">1</KEY>
+			<KEY value="NBHOST_TOTAL">1</KEY>
+			<KEY value="REPORT_TYPE">Scheduled</KEY>
+			<KEY value="OPTIONS">
+				File Integrity Monitoring: Enabled,
+				Scanned Ports: Standard Scan, Hosts to Scan in Parallel - External
+				Scanners: 15, Hosts to Scan in Parallel - Scanner Appliances: 30,
+				Total Processes to Run in Parallel: 10, HTTP Processes to Run in
+				Parallel: 10,
+				Packet (Burst) Delay: Medium, Intensity: Normal, Overall Performance:
+				Normal, ICMP Host Discovery, Ignore RST packets: Off, Ignore firewallgenerated
+				SYN-ACK packets: Off, Do not send ACK or SYN-ACK packets
+				during host discovery: Off
+			</KEY>
+			<KEY value="STATUS">FINISHED</KEY>
+			<OPTION_PROFILE>
+				<OPTION_PROFILE_TITLE option_profile_default="0">
+					<![CDATA[11412]]>
+				</OPTION_PROFILE_TITLE>
+			</OPTION_PROFILE>
+		</HEADER>
+		<APPENDIX>
+			<TARGET_HOSTS>
+				<HOSTS_SCANNED>10.10.10.29</HOSTS_SCANNED>
+			</TARGET_HOSTS>
+			<TARGET_DISTRIBUTION>
+				<SCANNER>
+					<NAME><![CDATA[iscan_sx]]></NAME>
+					<HOSTS>10.10.10.29</HOSTS>
+				</SCANNER>
+			</TARGET_DISTRIBUTION>
+			<AUTHENTICATION>
+				<AUTH>
+					<TYPE>Windows</TYPE>
+					<SUCCESS>
+						<IP>10.10.10.29</IP>
+					</SUCCESS>
+				</AUTH>
+			</AUTHENTICATION>
+		</APPENDIX>
+	</COMPLIANCE_SCAN>
+ </RESPONSE>
+</COMPLIANCE_SCAN_RESULT_OUTPUT>
