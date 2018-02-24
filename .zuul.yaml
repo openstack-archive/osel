@@ -1,0 +1,16 @@
+---
+- project:
+    check:
+      jobs:
+        - osel-gofmt
+        - osel-gotest
+    gate:
+      jobs:
+        - osel-gofmt
+        - osel-gotest
+- job:
+    name: osel-gofmt
+    run: playbooks/osel-gofmt.yaml
+- job:
+    name: osel-gotest
+    run: playbooks/osel-gotest.yaml
