@@ -1,0 +1,90 @@
+{
+  "_context_roles": [
+    "Member",
+    "admin"
+  ],
+  "_context_request_id": "req-49d3158a-1288-4b76-bed9-907666d7d8c5",
+  "_context_quota_class": null,
+  "event_type": "compute.instance.create.start",
+  "_context_service_catalog": [
+    {
+      "endpoints": [
+        {
+          "url": "https://openstack-host:8776/v1/ada3b9b0dbac429f9361e803b54f5f32",
+          "interface": "public",
+          "region": "ndc_ch2_a",
+          "id": "7d0a1277410648d4a3e0164ad233adea"
+        },
+        {
+          "url": "https://openstack-host:8776/v1/ada3b9b0dbac429f9361e803b54f5f32",
+          "interface": "admin",
+          "region": "ndc_ch2_a",
+          "id": "df06789d23684643a0b59bfa7ee26064"
+        }
+      ],
+      "type": "volume",
+      "id": "e90968e859474737a4ad7aadffb2f578"
+    }
+  ],
+  "timestamp": "2016-10-03 18:40:33.699871",
+  "_context_user": "bca89c1b248e4aef9c69ece9e744cc54",
+  "_unique_id": "ab304ee51028479d899f38cd100b9b36",
+  "_context_instance_lock_checked": false,
+  "_context_user_id": "bca89c1b248e4aef9c69ece9e744cc54",
+  "payload": {
+    "state_description": "scheduling",
+    "availability_zone": null,
+    "terminated_at": "",
+    "ephemeral_gb": 0,
+    "instance_type_id": 2,
+    "message": "",
+    "deleted_at": "",
+    "reservation_id": "r-vgn2gv93",
+    "instance_id": "128bc33a-22ae-48b4-8283-093b6ec749d0",
+    "user_id": "bca89c1b248e4aef9c69ece9e744cc54",
+    "hostname": "test-sc-group",
+    "state": "building",
+    "launched_at": "",
+    "metadata": {
+    },
+    "node": null,
+    "ramdisk_id": "",
+    "access_ip_v6": null,
+    "disk_gb": 1,
+    "access_ip_v4": null,
+    "kernel_id": "",
+    "image_name": "cirros-0.3.4",
+    "host": null,
+    "display_name": "test_sc_group",
+    "image_ref_url": "http://172.28.195.37:9292/images/caf23aab-f6ec-4691-8f50-b0c70a33eca3",
+    "root_gb": 1,
+    "tenant_id": "ada3b9b0dbac429f9361e803b54f5f32",
+    "created_at": "2016-10-03T18:40:33.000000",
+    "memory_mb": 512,
+    "instance_type": "m1.tiny",
+    "vcpus": 1,
+    "image_meta": {
+      "description": "cirros-0.3.4",
+      "container_format": "bare",
+      "min_ram": "0",
+      "disk_format": "qcow2",
+      "min_disk": "1",
+      "base_image_ref": "caf23aab-f6ec-4691-8f50-b0c70a33eca3"
+    },
+    "architecture": null,
+    "os_type": null,
+    "instance_flavor_id": "1"
+  },
+  "_context_project_name": "VOIP",
+  "_context_read_deleted": "no",
+  "_context_auth_token": "7b82d6dec2eb457d85e08940a7f7b33e",
+  "_context_tenant": "ada3b9b0dbac429f9361e803b54f5f32",
+  "priority": "INFO",
+  "_context_is_admin": false,
+  "_context_project_id": "ada3b9b0dbac429f9361e803b54f5f32",
+  "_context_timestamp": "2016-10-03T18:40:32.636697",
+  "_context_user_name": "admin",
+  "publisher_id": "compute.oscomp-ch2-a06",
+  "message_id": "0553fb1f-42d1-4959-8991-4b5034701d9d",
+  "_context_remote_address": "127.0.0.1"
+}
