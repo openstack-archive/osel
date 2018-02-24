@@ -1,0 +1,6 @@
+required_string: "required_string value"
+test_alias: "test_alias value"
+nested:
+  one: "nested.one value"
+
+
