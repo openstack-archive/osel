@@ -1,0 +1,11 @@
+---
+- project:
+  check:
+    jobs:
+      - osel-gofmt
+  gate:
+    jobs:
+      - osel-gofmt
+      - build-releasenotes
+- job:
+    name: osel-gofmt
