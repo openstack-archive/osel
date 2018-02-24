@@ -1,0 +1,10 @@
+---
+- project:
+    check:
+      jobs:
+        - osel-gofmt
+    gate:
+      jobs:
+        - osel-gofmt
+- job:
+    name: osel-gofmt

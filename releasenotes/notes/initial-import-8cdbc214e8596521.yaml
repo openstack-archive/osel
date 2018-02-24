@@ -1,0 +1,24 @@
+---
+prelude: >
+    This is the first public release of the OpenStack Event Listener (OSEL).
+    It had previously been a project within Comcast, but was open-sourced 
+    under the Apache license.
+features:
+  - |
+    Connects to RabbitMQ to listen for notification events specific to security
+    group changes.  When those are intercepted, query Nova for information about
+    what the affected IP addresses are, then initiate a Qualys scan.  Finally
+    send info in the IP addresses and the Qualys scan ID to syslog.
+issues:
+  - |
+    Only processes security group changes, should also process new port events 
+    as well.
+  - |
+    Needs to exponential backoff for AMQP connections.
+  - |
+    Needs to be integrated with Aodh for modern OpenStacks.
+security:
+  - |
+    Requires access to RabbitMQ as well as OpenStack credentials that have access
+    to data in all projects, so this should be considered a privileged process and
+    should be run in a properly secured context.
