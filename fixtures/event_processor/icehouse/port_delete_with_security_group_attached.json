@@ -1,0 +1,28 @@
+{  
+   "_context_roles":[  
+      "Member"
+   ],
+   "_context_request_id":"req-d9daa316-5075-4702-961a-6a808db40c1e",
+   "event_type":"port.delete.end",
+   "timestamp":"2016-10-03 17:28:04.004860",
+   "_context_tenant_id":"ada3b9b0dbac429f9361e803b54f5f32",
+   "_unique_id":"e7a124d2056c476696a5efada8ddfbf2",
+   "_context_tenant_name":"VOIP",
+   "_context_user":"bca89c1b248e4aef9c69ece9e744cc54",
+   "_context_user_id":"bca89c1b248e4aef9c69ece9e744cc54",
+   "payload":{  
+      "port_id":"57545a0d-ab4e-4a18-bba2-d7ee8bc9c3c1"
+   },
+   "_context_project_name":"VOIP",
+   "_context_read_deleted":"no",
+   "_context_tenant":"ada3b9b0dbac429f9361e803b54f5f32",
+   "priority":"INFO",
+   "_context_is_admin":false,
+   "_context_project_id":"ada3b9b0dbac429f9361e803b54f5f32",
+   "_context_timestamp":"2016-10-03 17:28:03.916009",
+   "_context_user_name":"admin",
+   "publisher_id":"network.osctrl-ch2-a02",
+   "message_id":"9573b2e3-9f33-499d-ad31-43840f5c1c58"
+}
+
+
