@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+    - name: Run gofmt
+      command: make fmt10
+      args:
+        chdir: "{{ zuul.project.src_dir }}"

@@ -1,0 +1,38 @@
+{  
+   "_context_roles":[  
+      "admin"
+   ],
+   "_context_request_id":"req-662e5998-9dcd-4b76-a726-5d815a1ab9ef",
+   "event_type":"port.create.start",
+   "timestamp":"2016-10-03 17:25:04.189288",
+   "_context_tenant_id":"0b65cf220eab4a3cbd68681d188d7dc7",
+   "_unique_id":"edd46be30b524fe9a3af78cec809db0e",
+   "_context_tenant_name":"services",
+   "_context_user":"31055c32b50442e5a4eb4c0f0cb3430b",
+   "_context_user_id":"31055c32b50442e5a4eb4c0f0cb3430b",
+   "payload":{  
+      "port":{  
+         "binding:host_id":"oscomp-ch2-a07",
+         "admin_state_up":true,
+         "network_id":"af33487a-4e96-4499-bfcd-4f741617a763",
+         "tenant_id":"ada3b9b0dbac429f9361e803b54f5f32",
+         "device_owner":"compute:None",
+         "security_groups":[  
+            "0783a151-768c-49d3-a31d-178f70fabd51",
+            "46d46540-98ac-4c93-ae62-68dddab2282e"
+         ],
+         "device_id":"bb64fe08-0eae-4c83-8bc2-457b6cb7e9a3"
+      }
+   },
+   "_context_project_name":"services",
+   "_context_read_deleted":"no",
+   "_context_tenant":"0b65cf220eab4a3cbd68681d188d7dc7",
+   "priority":"INFO",
+   "_context_is_admin":true,
+   "_context_project_id":"0b65cf220eab4a3cbd68681d188d7dc7",
+   "_context_timestamp":"2016-10-03 17:25:04.187847",
+   "_context_user_name":"neutron",
+   "publisher_id":"network.osctrl-ch2-a02",
+   "message_id":"56253f06-7350-47c0-8284-d74701d11698"
+}
+
