@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE SIMPLE_RETURN SYSTEM "https://qualysapi.qualys.com/api/2.0/simple_return.dtd">
+<SIMPLE_RETURN>
+  <RESPONSE>
+    <DATETIME>2017-02-02T14:28:35Z</DATETIME>
+    <TEXT>New vm scan launched</TEXT>
+    <ITEM_LIST>
+      <ITEM>
+        <KEY>ID</KEY>
+        <VALUE>26148615</VALUE>
+      </ITEM>
+      <ITEM>
+        <KEY>REFERENCE</KEY>
+        <VALUE>scan/1486045714.48615</VALUE>
+      </ITEM>
+    </ITEM_LIST>
+  </RESPONSE>
+</SIMPLE_RETURN>
