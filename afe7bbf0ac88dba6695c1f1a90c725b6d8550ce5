@@ -1,0 +1,8 @@
+Code-Review+2: Nate Johnston <openstacknate@gmail.com>
+Workflow+1: Nate Johnston <openstacknate@gmail.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Thu, 31 May 2018 17:23:41 +0000
+Reviewed-on: https://review.openstack.org/571525
+Project: openstack/osel
+Branch: refs/heads/master
