@@ -17,7 +17,7 @@ const (
     "payload": {
       "port": {
         "status": "DOWN",
-        "binding:host_id": "oscomp-ch2-a06",
+        "binding:host_id": "controller",
         "name": "",
         "allowed_address_pairs": [
 
@@ -61,7 +61,7 @@ const (
     "_context_project_id": "0b65cf220eab4a3cbd68681d188d7dc7",
     "_context_timestamp": "2016-10-03 18:40:34.477012",
     "_context_user_name": "neutron",
-    "publisher_id": "network.osctrl-ch2-a03",
+    "publisher_id": "network.controller03",
     "message_id": "71047538-531f-4aca-be09-a31bec441d16"
   }
 
@@ -103,7 +103,7 @@ const (
      "_context_project_id":"ada3b9b0dbac429f9361e803b54f5f32",
      "_context_timestamp":"2016-10-03 17:50:59.925462",
      "_context_user_name":"admin",
-     "publisher_id":"network.osctrl-ch2-a03",
+     "publisher_id":"network.controller03",
      "message_id":"6c93e24f-0892-494b-8e68-46252ceb9611"
   }
   `
@@ -144,7 +144,7 @@ const (
      "_context_project_id":"ada3b9b0dbac429f9361e803b54f5f32",
      "_context_timestamp":"2016-10-03 18:05:35.769947",
      "_context_user_name":"admin",
-     "publisher_id":"network.osctrl-ch2-a03",
+     "publisher_id":"network.controller03",
      "message_id":"f67b70d5-a782-4c5e-a274-a7ff197b73ec"
   }
   `
@@ -184,7 +184,7 @@ const (
      "_context_project_id":"ada3b9b0dbac429f9361e803b54f5f32",
      "_context_timestamp":"2016-10-03 17:32:25.665588",
      "_context_user_name":"admin",
-     "publisher_id":"network.osctrl-ch2-a03",
+     "publisher_id":"network.controller03",
      "message_id":"4df01871-8bdb-4b85-bb34-cbff59ee6034"
   }
   `
@@ -224,7 +224,7 @@ const (
      "_context_project_id":"ada3b9b0dbac429f9361e803b54f5f32",
      "_context_timestamp":"2016-10-03 17:36:58.712962",
      "_context_user_name":"admin",
-     "publisher_id":"network.osctrl-ch2-a03",
+     "publisher_id":"network.controller03",
      "message_id":"e2d7c089-8194-4523-8f84-ae22db497f60"
   }
   `
@@ -264,7 +264,7 @@ const (
      "_context_project_id":"ada3b9b0dbac429f9361e803b54f5f32",
      "_context_timestamp":"2016-10-03 18:09:11.876789",
      "_context_user_name":"admin",
-     "publisher_id":"network.osctrl-ch2-a03",
+     "publisher_id":"network.controller03",
      "message_id":"afb043b6-fa56-470b-b17e-984fb4cb6505"
   }
   `
@@ -292,7 +292,7 @@ const (
     "_context_project_id": "ada3b9b0dbac429f9361e803b54f5f32",
     "_context_timestamp": "2016-10-03 18:14:32.962116",
     "_context_user_name": "admin",
-    "publisher_id": "network.osctrl-ch2-a03",
+    "publisher_id": "network.controller03",
     "message_id": "9bc5106c-a08b-4cda-9311-20bc16bc3008"
   }
   `

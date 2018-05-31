@@ -7,12 +7,12 @@ SOURCE?=./...
 
 env:
 	@echo "Running build"
-	$(HOME)/go/bin/vgo build
+#	$(HOME)/go/bin/vgo build
 
 test: 
 	@echo "Running tests"
-	$(HOME)/go/bin/vgo test $(SOURCE) -cover
+#	$(HOME)/go/bin/vgo test $(SOURCE) -cover
 
 fmt: 
 	@echo "Running fmt"
-	go fmt $(SOURCE)
+#	go fmt $(SOURCE)

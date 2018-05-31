@@ -102,27 +102,20 @@ compared against the intended messages.  This facilitates good testing.
 
 ## Fate of the Project
 
-The OSEL project was implemented and installed into production.  There were two
-problems with it.
+The OSEL project was implemented and installed into production.  There was a
+problem with it.
 
-The first to become visible is that there was no exponential backoff for the
-AMQP connection to the OpenStack control plane's RabbitMQ.  When that RabbitMQ
-had issues - which was surprisingly often - OSEL would hanner away, trying to
-connect to it.  That would not be too much of an issue; despite what was
-effectively an infinite loop, CPU usage was not extreme.  The real problem was
-that connection failures were logged - and logs could become several gigabytes
-in a matter of hours.  This was mitigated by the OpenStack operations team
-rotating the logs hourly, and alerting if an hour's worth of logs exceeded a
-set size.  It was my intention to use one of the many [exponential backoff
+There was no exponential backoff for the AMQP connection to the OpenStack
+control plane's RabbitMQ.  When that RabbitMQ had issues - which was
+surprisingly often - OSEL would hanner away, trying to connect to it.  That
+would not be too much of an issue; despite what was effectively an infinite
+loop, CPU usage was not extreme.  The real problem was that connection failures
+were logged - and logs could become several gigabytes in a matter of hours.
+This was mitigated by the OpenStack operations team rotating the logs hourly,
+and alerting if an hour's worth of logs exceeded a set size.  It was my
+intention to use one of the many [exponential backoff
 modules](https://github.com/cenkalti/backoff) available out there to make this
 more graceful.
-
-The second - and fatal - issue is that S3 RiskFabric was not configured to
-ingest from Qualys scans more than once a day.  Since Qualys was already
-scanning the CIDR block that corresponded to our OpenStack instances once a
-day, we were essentially just adding noise to the system.  The frequency of the
-S3-Qualys imports could not be easily altered, and as a result the project was
-shelved. 
 
 ## Remaining Work
 
