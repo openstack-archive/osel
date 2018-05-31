@@ -17,7 +17,7 @@ const (
     "payload": {
       "port": {
         "status": "DOWN",
-        "binding:host_id": "oscomp-ch2-a06",
+        "binding:host_id": "controller",
         "name": "",
         "allowed_address_pairs": [
 
